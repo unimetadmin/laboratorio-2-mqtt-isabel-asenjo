@@ -33,7 +33,7 @@ def main():
             mins=0
         mins+=10
 	    
-        client.publish('casa/banho/tanque',json.dumps(payload),qos=0)
+        client.publish('casa/baño/tanque',json.dumps(payload),qos=0)
         print(payload)
         time.sleep(1)
 
